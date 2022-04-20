@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Mod2IhmSimple"
 include ':app'
+include ':mod2tpihm'
+include ':mod4findviewbyid'
