@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun generateRandom(min:Int = -1, max:Int=-1){
+
         if(min ==-1 || max ==-1 || min > max){
             textViewResult.text = "Erreur entrée"
         }else{
