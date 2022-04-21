@@ -25,6 +25,9 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             Toast.makeText(this, "Hello tu as appuyé sur un bouton", Toast.LENGTH_SHORT).show()
         }
+
+        //Pour récupérer le contenu d'un EditText
+        editText.text.toString().toInt()
     }
 
     fun onClickButton2(v:View){

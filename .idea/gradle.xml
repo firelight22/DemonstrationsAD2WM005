@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/mod2tpihm" />
             <option value="$PROJECT_DIR$/mod4findviewbyid" />
+            <option value="$PROJECT_DIR$/mod4random" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
