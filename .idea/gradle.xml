@@ -11,10 +11,15 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/mavoiturebinding" />
             <option value="$PROJECT_DIR$/mod2tpihm" />
             <option value="$PROJECT_DIR$/mod4databinding" />
             <option value="$PROJECT_DIR$/mod4findviewbyid" />
             <option value="$PROJECT_DIR$/mod4random" />
+            <option value="$PROJECT_DIR$/mod4tpvraifaux" />
+            <option value="$PROJECT_DIR$/mod5colorme" />
+            <option value="$PROJECT_DIR$/mod5navigation" />
+            <option value="$PROJECT_DIR$/navigationdrawer" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

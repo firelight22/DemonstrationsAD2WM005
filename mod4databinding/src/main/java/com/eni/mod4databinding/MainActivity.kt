@@ -1,6 +1,7 @@
 package com.eni.mod4databinding
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.eni.mod4databinding.databinding.ActivityMainBinding
@@ -18,7 +19,10 @@ class MainActivity : AppCompatActivity() {
             (1900..2000).random().toString(),
             faker.gender.types()
         )
+
+
         amb.utilisateur = user
+        Toast.makeText(this, amb.utilisateur.toString(), Toast.LENGTH_SHORT).show()
 
         amb.textViewGenre.textSize = 25.0f
     }
